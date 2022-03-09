@@ -18,7 +18,7 @@ app.get('/', (req,res) => {
 
 
 
-mongoose.connect(Url, {
+mongoose.connect("mongodb+srv://Deadpixel62:popo0909@cluster0.xwll3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
